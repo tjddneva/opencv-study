@@ -18,6 +18,6 @@ plt.imshow(imgGray, cmap='gray')
 plt.show()
 
 # 두 개의 영상을 함께 출력
-plt.subplot(121), plt.axis('off'), plt.imshow(imgRGB)
+plt.subplot(121), plt.axis('off'), plt.imshow(imgRGB)  # 121 행 1개에 2개의 열 중 첫번째
 plt.subplot(122), plt.axis('off'), plt.imshow(imgGray, cmap='gray')
 plt.show()

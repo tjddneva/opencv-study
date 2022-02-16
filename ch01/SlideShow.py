@@ -18,7 +18,7 @@ if not img_files:
     sys.exit()
 
 # 전체 화면으로 'image' 창 생성
-cv2.namedWindow('image', cv2.WINDOW_NORMAL)
+cv2.namedWindow('image', cv2.WINDOW_AUTOSIZE)
 cv2.setWindowProperty('image', cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
 
 # 무한 루프
